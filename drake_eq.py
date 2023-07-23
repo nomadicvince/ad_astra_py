@@ -73,9 +73,10 @@ L = int(input('How many years will these civilizations produce these signals? ')
 print()
 
 #calculate values
-detectable_civilizations = (7 * (fp/100) * ne * (fl/100) * (fi/100) * (fc/100) * L)
+detectable_civilizations = int(7 * (fp/100) * ne * (fl/100) * (fi/100) * (fc/100) * L)
 
 #display results
 print("Based on the values entered....")
-print(f"there are an estimated {math.floor(detectable_civilizations)} potential detectable civilizations in the Milky Way")
+print()
+print(f"There are an estimated{math.floor(detectable_civilizations): ,} potential detectable civilizations in the Milky Way Galaxy")
 print()
