@@ -1,2 +1,2 @@
-# ad_astra_py
+# PyAstra
 Python library of astronomy and astrophysics apps
